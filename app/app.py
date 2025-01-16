@@ -29,7 +29,7 @@ model.fc = torch.nn.Sequential(
     torch.nn.Dropout(0.5),
     torch.nn.Linear(512, num_classes)
 )
-state_dict = torch.load("/home/skhotijah/project/microsoft_cup/model_resnet18_2.pth", map_location=torch.device('cpu'))
+state_dict = torch.load("./model_resnet18_2.pth", map_location=torch.device('cpu'))
 model.load_state_dict(state_dict)
 model.eval()
 
