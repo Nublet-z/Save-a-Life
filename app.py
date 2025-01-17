@@ -215,5 +215,4 @@ Upload the CT Scan Image you desire to analyze, our Neural Network Model will au
 Our model provides fast and accurate results, helping healthcare professionals identify potential issues for timely diagnosis and treatment.
     """)
 
-if __name__ == "__main__":
-    main()
+main()
