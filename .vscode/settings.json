@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e6f62a66-9d70-4fab-b9a5-d322e9e199a0/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/save-a-life",
+    "appService.deploySubpath": "."
+}
